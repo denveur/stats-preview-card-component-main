@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0a0c1b;
+}
+
+.content{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+    
+}
+
+.sect1{
+    width: 36.7%;
+    height: 70%;
+    padding: 60px;
+    background-color: #1c1938;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+h1{
+   width: 350PX;
+}
+.sp{
+    color:#aa5cd6
+}
+
+.p1{
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 320px;
+   
+    color: #c0bed4;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.img{
+    background:linear-gradient(to top, rgba(91, 42, 122, 0.7)50%, rgba(91, 42, 122, 0.7)50%), url(./images/image-header-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price{
+    display: flex;
+    margin-top: 40px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+span{
+    font-size: 25px;
+}
+p{
+    font-size: 12px;
+    color: #c0bed4;
+    margin-top: 5px;
+}
+
+@media (max-width:920px) {
+            
+    .content{
+        flex-direction: column-reverse;
+        width: 300px;
+        height: 700px;
+    
+    }
+    .img{
+        height: 40%;
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+    }
+    .sect1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        border-top-left-radius: 0;
+    }
+    h1{
+        width: 200px;
+        font-size: 20px;
+        padding: 0;
+        margin-top: 25px;
+    }
+    .p1{
+        width: 230px;
+    }
+    .price{
+        flex-direction: column;
+    }
+    .price1{
+        margin-bottom: 20px;
+    }
+    span{
+        font-size: 20px;
+    }
+    
+}
